@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Configure the Gemini API key
-genai.configure(api_key='AIzaSyAeNhNO_Dvs81tuk0SF0iqLFmXi6HqAVkQ')
+## use your own api key - genai.configure(api_key='')
 
 def embed_fn2(text):
     """Generate embeddings for a given text."""
